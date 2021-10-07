@@ -1,0 +1,226 @@
+body{
+
+    background-color: #EEEE;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 310px;
+
+}
+
+
+
+
+.maindiv{
+
+    background-color: white;
+    width: 800px;
+    height: 470px;
+    border: 1px black solid;
+    margin-left: 310px;
+    margin-top: 15px;
+}
+
+.Boxs{
+
+    float: left;
+}
+
+.GeneralStyles{
+
+    
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-bottom: 22px;
+    width: 175px;
+    color:rgb(105, 105, 105);
+    border-bottom: 1px #E6ECF3 solid;
+}
+
+.userimage{
+
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+
+.Upload{
+    
+    float: left;
+    color: #ffffff; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color:#428bca ;
+    border-color:#357ebd ;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 130px;
+    height: 30px;
+}
+
+.Reset{
+    float: left;
+    color: #ffffff; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 70px;
+    height: 30px;
+    
+}
+
+.Allowed{
+
+   clear: left;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+
+}
+
+.usernam{
+    
+    clear: left;
+    padding-top: 14px;
+    padding-left: 25px;
+    width: 30px;
+    font-size: 15px;
+}  
+
+.boxstyle{
+border: 1px solid #cccccc;
+border-radius: 4px;
+color: #555555;
+width: 400px;
+
+}
+
+.w{
+    width: 450px;
+}
+
+.lasd{
+
+    margin-top: 14px;
+    margin-left: 249px;
+}
+
+.Cancelb{
+    color: #333333;
+    background-color: #ffffff;
+    border-color:#cccccc ;
+    margin-left: 10px;
+    width: 55px;
+    height: 35px;
+    border-radius: 4px;
+    border-color: whitesmoke;
+
+
+    
+}
+
+
+.Saveb{
+    background-color: rgb(66, 139, 202);
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 4px;
+    border-color: whitesmoke;
+    
+
+}
+
+.conf{
+
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color:#FFF3CD ;
+     width: 400px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+
+.boxstyle:focus{ border-color:#66afe9;
+outline: 0; }
+
+.Upload:hover{
+
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.Reset:hover{
+
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.Saveb:hover{
+
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.Cancelb:hover{
+
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.underline{
+    text-decoration: underline;
+    color: blue;
+
+}
+
+.contacts{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.Activity{
+
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.check{
+
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.passpage{
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.GeneralStyles:hover{
+
+    background-color: #F0F0F0;
+    border-color: #285e8e;
+}
+
+

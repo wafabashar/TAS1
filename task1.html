@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Account Setting</title>
+
+<link href="style1.css" rel="stylesheet" type="text/css">
+
+<!----------------------JAVASECRIPT-------------------------->
+
+<script type="text/javascript">
+    function Toggle(value){
+        switch(value){
+            case 'General':
+            document.getElementById('General').style.display="block";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Password':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display=" block";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+
+            break;
+            case 'Info':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="block";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Notification':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="block";
+            break;
+        }
+    }
+    </script>
+
+    <!------------------------------------------------------------------------->
+
+</head>
+
+<body>
+
+    <div class="title">
+        <span >Account Setting</span>
+    </div>
+
+  <div class="maindiv">
+
+    
+    <div class="Boxs">
+
+        <!-----------------------ONCLICK PART FROM JAVA------------------------------>
+
+        <div class="GeneralStyles" onclick="Toggle('General')">General</div>
+        <div class="GeneralStyles" onclick="Toggle('Password')">Change Password</div>
+        <div class="GeneralStyles" onclick="Toggle('Info')">Info</div>
+        <div class="GeneralStyles" onclick="Toggle('Notification')">Notification</div>
+
+    </div>
+
+    <!------------------------------------------------------------------------->
+
+
+   <!---------------------PART FROM JAVA--------------------------------->
+
+    <div  class="Boxs w" id="General" >
+
+ <!-------------------------------------------------------------------------->
+
+
+        <div class="Boxs">
+
+            <div class="Boxs">
+                <img class="userimage" src="avatar.png">
+    
+            </div>
+
+            <div class="Boxs">
+
+                <div class="Boxs" >
+                    <button class="Upload"> Upload new photo</button>
+                </div>
+        
+                <div class="Boxs">
+        
+                    <button class="Reset">Reset</button>
+        
+                </div>
+        
+                <div class="Allowed" > 
+        
+                    <span> Allowed JPG, GIF or PNG. Max size of 800K</span>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    
+        <div class="usernam">
+
+            <div>
+
+                <span>username</span>
+
+            </div>
+
+
+            <div >
+                <input type="text" class="boxstyle"/>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="usernam">
+
+            <div>
+
+                <span>Name</span>
+
+            </div>
+
+
+            <div>
+                <input type="text" class="boxstyle"/>
+            </div>
+
+            
+
+
+        </div>
+        
+
+
+
+        <div class="usernam">
+
+            <div>
+
+                <span>Email</span>
+
+            </div>
+
+
+            <div>
+                <input type="email" class="boxstyle"/>
+            </div>
+
+            
+
+
+        </div>
+
+        <div class="conf">
+            <span>Your Email is not confirmed. Plase check your inbox</span>
+
+            <br>
+            <br>
+            
+            <span class="underline">Resend confirmation</span>
+        </div>
+
+        <div class="usernam">
+
+            <div>
+
+                <span>Company</span>
+
+            </div>
+
+
+            <div>
+                <input type="text" class="boxstyle"/>
+            </div>
+
+            
+
+
+        </div>
+
+
+        <div class="lasd">
+
+            <div class="Boxs">
+                <button class="Saveb">Save Changes</button>
+            </div>
+
+
+            <div>
+                <button class="Cancelb">Cancel</button>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <!---------------------PART FROM JAVA--------------------------------->
+
+    <div id="Password" style="display: none;" >
+
+    <!---------------------------------------------------->
+
+
+
+    <div class="Boxs">
+
+        <div  class="passpage">
+
+
+            <div>
+    
+                <span>Current Password</span>
+
+            </div>
+
+
+            <div>
+                <input type="text"  class="boxstyle"/>
+            </div>
+
+        </div>
+
+
+
+        <div  class="passpage">
+
+
+            <div>
+    
+                <span>New Password</span>
+
+            </div>
+
+
+            <div>
+                <input type="text" class="boxstyle"/>
+            </div>
+
+        </div>
+
+        <div class="passpage">
+
+
+            <div>
+    
+                <span>Repeat New Password</span>
+
+            </div>
+
+
+            <div>
+                <input type="text" class="boxstyle"/>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="Boxs">
+    
+                <button class="Saveb lasd">Save Changes</button>
+    
+            </div>
+    
+            <div class="Boxs">
+    
+                <button class="Cancelb lasd">Cancel</button>
+    
+            </div>
+    
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+
+   <!---------------------PART FROM JAVA--------------------------------->
+
+    <div id="Info" style="display: none;" >
+
+    <!-------------------------------------------------->
+
+    <div class="Boxs w">
+
+
+        <div class="usernam">
+    
+            <div>
+    
+                <span>Bio</span>
+    
+            </div>
+    
+    
+            <div >
+                <input type="text" class="boxstyle" />
+            </div>
+    
+    
+        </div>
+    
+    
+        <div class="usernam">
+    
+            <div>
+    
+                <span>Birthday</span>
+    
+            </div>
+    
+    
+            <div>
+                <input type="date"  class="boxstyle"  value="mm/dd/yyyy"/>
+            </div>
+    
+            
+    
+    
+        </div>
+    
+    
+        <div class="usernam">
+    
+            <div>
+    
+                <span>Country</span>
+    
+            </div>
+    
+    
+            <div>
+    
+                <select class="boxstyle" >
+                    <option>USA</option>
+                    <option>Jordan</option>
+                    <option>KSA</option>
+                    <option>UAE</option>
+                </select>
+            </div>
+    
+            
+    
+    
+        </div>
+    
+    
+    
+        <div >
+    
+            <div class="contacts">
+                <span>Contacts</span>
+            
+            </div>
+    
+            <div>
+    
+                <div class="usernam">
+    
+                    <div>
+        
+                        <span>Phone</span>
+        
+                    </div>
+        
+        
+                    <div>
+                        <input type="text" class="boxstyle"/>
+                    </div>
+        
+        
+                </div>
+    
+    
+    
+                <div>
+    
+                    <div class="usernam">
+        
+                        <div>
+            
+                            <span>Website</span>
+            
+                        </div>
+            
+            
+                        <div>
+                            <input type="text" class="boxstyle"/>
+                        </div>
+            
+                        
+            
+            
+                    </div>
+    
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+        </div>
+    
+    
+        <div>
+    
+            <div class="Boxs">
+    
+                <button class="Saveb lasd">Save Changes</button>
+    
+            </div>
+    
+            <div class="Boxs">
+    
+                <button class="Cancelb lasd">Cancel</button>
+    
+            </div>
+    
+        </div>
+    
+        
+    
+    </div>
+
+</div>
+</div>
+
+<!---------------------PART FROM JAVA--------------------------------->
+
+  <div id="Notification" style="display: none;" >
+    
+    <!--------------------------------------------->
+
+    
+    <div class="Boxs">
+
+        <div class="Activity">
+            <span>Activity</span>
+        </div>
+
+        <div>
+           
+            <input type="checkbox" class="check">
+            <label>Email me when someone comments on my article </label><br>
+
+            <input type="checkbox" class="check" >
+            <label>Email me when someone answers on my fourm thread </label><br>
+
+            <input type="checkbox" class="check" >
+            <label>Email me when someone follows me </label><br>
+        </div>
+
+        <div class="Activity">
+            <span>Application</span>
+        </div>
+
+
+        <div>
+           
+            <input type="checkbox" class="check" >
+            <label>News and announcements</label><br>
+
+            <input type="checkbox" class="check" >
+            <label>Weekly product updates </label><br>
+
+            <input type="checkbox" class="check" >
+            <label>Weekly blog digest</label><br>
+        </div>
+
+        <div>
+
+                <button class="Saveb lasd">Save Changes</button>
+
+        </div>
+
+
+    </div>
+     
+
+ </div>
+
+
+    
+
+</div>
+
+</body>
+
+</html>
